@@ -1,0 +1,148 @@
+body {
+    background: url('../image/bodybackground.png');
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+
+#top
+{
+    
+    color: rgb(53, 35, 219);
+    text-shadow: 1px 1px 1px rgb(248, 9, 41);
+    font-weight: 300;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    
+}
+#header-nav{
+    background-color: rgb(16, 192, 60);
+    border-radius: 0;
+    border: 0;
+    position: relative;
+}
+.navbar-brand {
+    padding-top: 25px;
+  }
+
+.navbar-brand h1{
+     /* Restaurant name */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align: left;
+  color: #f33d06;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px rgb(52, 248, 118);
+  margin-top: 0;
+  
+  line-height: .5;
+  
+  
+}  
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list{
+    margin-top: 10px;
+}
+
+#nav-list a{
+    color: rgb(247, 243, 17);
+    text-shadow: 1px 1px 1px blueviolet;
+    text-align: center;
+    font-size: 1.2em;
+
+
+}
+#nav-list a:hover{
+    background-color:  darkolivegreen;
+    ;
+}
+
+#nav-list a span{
+    font-size: 1.2em;
+}
+
+/* container grid starts*/
+ .container  { 
+     width: 100%; 
+}
+
+.row {
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+
+}
+/*
+.column{
+    width: 99%;
+    border: 1px solid blueviolet;
+    
+    background-color: chartreuse;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1%;
+}
+*/
+div h3 {
+    text-align: center;
+}
+
+div.row section{
+
+    
+ background-color: darkorchid;
+ border: 1px solid black;
+ color: black;
+ padding: 5px 10px;
+ text-align: justify;
+
+}
+
+
+div.row section a {
+    color: darkblue;
+}
+
+
+/* container grid ends*/
+
+/*media queries start */
+.col-lg-4,.col-md-4{
+padding: 1%;
+
+}
+.col-sm-6,.col-sm-12{
+    padding: 1%;
+
+}
+.col-xs-12{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 1%;
+}
+@media (min-width:1200px)
+{
+    .col-lg-4 > section
+    {
+        height: 1100px;
+      
+    }
+    
+}
+
+@media (min-width:992px) and (max-width:1199px)
+{
+    
+    .col-md-4 > section
+    {
+        height: 1300px;
+        
+    }
+}
+
+/*media queries end*/
